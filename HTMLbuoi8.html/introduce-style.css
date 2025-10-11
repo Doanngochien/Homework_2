@@ -1,0 +1,80 @@
+.header{
+    display:flex;
+    background-color:rgb(150, 201, 213);
+    justify-content:space-between;
+    align-items: center;
+    padding:10px ;
+
+}
+.menu a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+ .logo img{
+    height :60px;
+ }
+ .main{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+
+ }
+ .main #name{
+    color:blue;
+    text-align: center;
+
+ }
+ .main #avatar{
+    align-items: center;
+    border :1px solid blue;
+    border-radius: 50%;
+    
+ }
+ .main .anhdaidien{
+    align-items: center;
+    text-align: center;
+
+ }
+ .main .gioithieu{
+    text-align: center;
+ }
+ label{
+    text-decoration: underline blue;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+ }
+
+    
+ul{
+    list-style-type: none;  
+    padding-left: 0;        
+    margin: 0;
+    
+}
+.hblist li{
+    border-bottom: 1px solid;
+    padding:6px 0;
+}
+ .main .table{
+    text-align: center;
+    border :1px;
+ }
+ .main .table th{
+    background: blue;
+ }
+ .skill ol{
+    padding-left: 0;
+ }
+ .footer{
+    background: black;
+    text-align: center;
+    text-decoration: white;
+    padding:10px;
+ }
+
+
+

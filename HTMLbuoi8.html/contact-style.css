@@ -1,0 +1,42 @@
+header{
+    background: rgb(137, 137, 180);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.form{
+    color:blue;
+    text-align: center;
+    font-size: 25px;
+}
+label{
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    background-color: blue;
+}
+.main{
+    margin-left:30%;
+    margin-right: 30%;
+
+}
+.thongtin{
+    width:100%;
+    padding:8px;
+    border:1px solid;
+    border-radius: 4px;
+
+}
+footer{
+    color:white;
+    text-align: center;
+    background: black;
+    padding:10px;
+}
