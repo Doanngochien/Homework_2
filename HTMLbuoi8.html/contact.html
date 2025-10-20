@@ -19,26 +19,26 @@
     </header>
     <p class="form">Form liên hệ</p>
     <div class="main">
-    <form>
+    <form id="contactform">
         <label >Họ tên</label><br><br>
-        <input type="text" placeholder="nhập họ tên" id="tên" class="thongtin"><br><br>
+        <input type="text" placeholder="nhập họ tên" id="name" class="thongtin"><br><br>
 
         <label >Email</label><br><br>
-        <input type="email" placeholder="nhập email" class="thongtin"><br><br>
+        <input type="email" placeholder="nhập email" id= "email" class="thongtin"><br><br>
 
         <label >Liên hệ</label><br><br>
-        <textarea type="text" placeholder="nhập nội dung liên hệ" rows="3" cols="40" class="thongtin"></textarea><br><br>
+        <textarea type="text" placeholder="nhập nội dung liên hệ" rows="3" cols="40" id ="message" class="thongtin"></textarea><br><br>
         
         <label>Giới tính</label><br><br>
-        <input type="radio" name="giới tính" value="nam" id="nam">nam  
-        <input type="radio" name="giới tính" value="nữ"id=nữ>nữ<br><br>
+        <input type="radio" name="gender" value="nam" id="nam">nam  
+        <input type="radio" name="gender" value="nữ"id=nữ>nữ<br><br>
 
         <label>Sở thích</label><br><br>
-        <input type="checkbox" value="bơi">bơi
-        <input type="checkbox" value="chạy bộ">chạy bộ<br><br>
+        <input type="checkbox" class="hobby" value="bơi">bơi
+        <input type="checkbox" class="hobby" value="chạy bộ">chạy bộ<br><br>
 
         <label > Thành phố</label><br><br>
-        <select class="thongtin">
+        <select class="thongtin" id="city">
             <option>Hà nội</option>
             <option>Hải phòng</option>
         </select><br><br>
@@ -57,6 +57,6 @@
         <p>Bản quyền © 2025 - doanngochien</p>
 
      </footer>
-    
+<script src="contact-script.js"></script>    
 </body>
 </html>

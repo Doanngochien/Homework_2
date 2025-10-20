@@ -55,7 +55,7 @@ ul{
     margin: 0;
     
 }
-.hblist li{
+#hblist li{
     border-bottom: 1px solid;
     padding:6px 0;
 }
@@ -66,9 +66,7 @@ ul{
  .main .table th{
     background: blue;
  }
- .skill ol{
-    padding-left: 0;
- }
+ 
  .footer{
     background: black;
     text-align: center;
